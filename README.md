@@ -27,3 +27,10 @@ Core dependencies include Perses 0.10.1, OpenMMTools 0.21.5, MDTraj 1.9.7, and p
 
 $\Delta\Delta G$ comparison plots were generated with cinnabar 0.3.0. 
 All other plots were generated using Matplotlib 3.5.2.
+
+Commands used to generate the environment:
+```bash
+
+```
+
+The environment yaml is located at XX.
