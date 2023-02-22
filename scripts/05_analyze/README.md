@@ -23,15 +23,15 @@ Analyze replica exchange simulations.
 - `8_compute_cis_for_pccs.ipynb` - 95% confidence intervals for the correlations in the $\partial U$ / $\partial \lambda$ heatmap. Figure 5
 - `8_correlate_du_dlambda_with_features_per_replica_50ns.ipynb` - Time series plots for specific degrees of freedom and $\partial U$ / $\partial \lambda$. Figure 4B-C, 4E-F, 7B, 7E
 - `8_generate_heatmap_per_replica_final_50ns.ipynb` - $\partial U$ / $\partial \lambda$ heatmap. Figure 5
-- `analysis_tools.py` - 
-- `analyze_dg.py` - 
-- `analyze_dg_timeseries.py` - 
-- `generate_heatmap_data_50ns.py` - 
-- `get_residue_dihedrals_per_replica.py` - 
-- `get_residue_distances_per_replica.py` - 
-- `get_water_counts_per_replica.py` - 
-- `run_du_dlambda_analysis_per_replica.py` - 
-- `run_make_traj_per_replica.py` - 
+- `analysis_tools.py` - Contains `DataAnalyzer` class for computing free energies with MBAR
+- `analyze_dg.py` - Compute (single) free energies with MBAR
+- `analyze_dg_timeseries.py` - Generate free energy time series with MBAR
+- `generate_heatmap_data_50ns.py` - Generate pearson correlation coefficients for $\partial U$ / $\partial \lambda$ heatmap
+- `get_residue_dihedrals_per_replica.py` - Generate dihedral angle time series for each interface residue for $\partial U$ / $\partial \lambda$ heatmap
+- `get_residue_distances_per_replica.py` - Generate distance time series for all pairs of residues involving interface residues for $\partial U$ / $\partial \lambda$ heatmap
+- `get_water_counts_per_replica.py` - Generate time series of number of waters in the neighborhood of the mutating residue for $\partial U$ / $\partial \lambda$ heatmap
+- `run_du_dlambda_analysis_per_replica.py` - Generate du/dlambda time series for each replica for $\partial U$ / $\partial \lambda$ heatmap
+- `run_make_traj_per_replica.py` - Generate DCD trajectories for each replica (to use for generating time series for dihedral angles, distances, and water counts for $\partial U$ / $\partial \lambda$ heatmap)
 
 ## Bash scripts
 Bash scripts for analyzing experiment are located in `perses-barnase-barstar-paper/data/`.
