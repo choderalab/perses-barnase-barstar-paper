@@ -1,0 +1,37 @@
+# Analyze
+Analyze replica exchange simulations.
+
+## Python scripts
+- 0_cinnabar_plots_10ns_replicate_1.ipynb - resume a replica exchange simulation
+- 0_cinnabar_plots_50ns.ipynb - run a replica exchange simulation 
+- 0_cinnabar_plots_rest_50ns.ipynb - 
+- 0_cinnabar_plots_terminally_blocked.ipynb - 
+- 0_protonation_state_correction.ipynb - 
+- 1_free_energy_discrepancy_timeseries_plots.ipynb - 
+- 1_free_energy_rmse_mue_timeseries_plots.ipynb - 
+- 1_free_energy_timeseries_plots.ipynb - 
+- 1_free_energy_timeseries_summary_plot.ipynb - 
+- 2_phi_psi_angle_timeseries_plots.ipynb - 
+- 3_replica_mixing_matrix_plots.ipynb - 
+- 3_replica_mixing_summary_plots.ipynb - 
+- 4_rest_parameter_combo_plots.ipynb - 
+- 5_alchemical_rest_protocol_plot.ipynb - 
+- 6_outlier_residue_distance_plot.ipynb - 
+- 7_ddg_per_mutation_10ns_arex.ipynb - 
+- 7_ddg_per_mutation_50ns_arest.ipynb - 
+- 7_ddg_per_mutation_50ns_arex.ipynb - 
+- 8_compute_cis_for_pccs.ipynb - 
+- 8_correlate_du_dlambda_with_features_per_replica_50ns.ipynb - 
+- 8_generate_heatmap_per_replica_final_50ns.ipynb -
+- analysis_tools.py - 
+- analyze_dg.py - 
+- analyze_dg_timeseries.py - 
+- generate_heatmap_data_50ns.py - 
+- get_residue_dihedrals_per_replica.py - 
+- get_residue_distances_per_replica.py - 
+- get_water_counts_per_replica.py - 
+- run_du_dlambda_analysis_per_replica.py - 
+- run_make_traj_per_replica.py - 
+
+## Bash scripts
+Bash scripts for analyzing experiment are located in `perses-barnase-barstar-paper/data/`.
