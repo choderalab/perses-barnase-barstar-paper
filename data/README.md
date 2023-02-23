@@ -13,7 +13,49 @@
 - `52` - Contains for scripts for generating htfs, running/resuming AREST, and analyzing free energies for all barnase:barstar mutations. Also contains pickle files for free energy data.
 
 ## Experiments
-TODO: describe what each experiment corresponds to
+- `43`
+    - 0 - ACE-ALA-NME in solvent
+    - 1 - ACE-ARG-NME in solvent
+    - 2 - ACE-TRP-NME in solvent
+    - 3 - WT barstar and barstar:barnase
+    - 4 - WT barnase and barnase:barstar
+    - 5 - A42T barstar and A42T barstar:barnase
+    - 6 - ACE-TYR-NME in solvent
+    - 7 - ACE-THR-NME in solvent
+    - 8 - ACE-GLU-NME in solvent
+    - 9 - ACE-ASP-NME in solvent
+    - 10 - ACE-LYS-NME in solvent
+    - 11 - ACE-HIS-NME in solvent
+    - 12 - ACE-PHE-NME in solvent
+    - 13 - ACE-GLN-NME in solvent
+    - 14 - ALA-ALA-ALA in solvent
+    - 15 - ALA-ARG-ALA in solvent
+    - 16 - ALA-TRP-ALA in solvent
+    - 17 - ALA-TYR-ALA in solvent
+    - 18 - ALA-THR-ALA in solvent
+    - 19 - ALA-GLU-ALA in solvent
+    - 20 - ALA-ASP-ALA in solvent
+    - 21 - ALA-LYS-ALA in solvent
+    - 22 - ALA-HIS-ALA in solvent
+    - 23 - ALA-PHE-ALA in solvent
+    - 24 - ALA-GLN-ALA in solvent
+    - 25 - F29 barstar and F29 barstar:barnase
+    - 26 - A29 barstar and A29 barstar:barnase
+    - 27 - F38 barstar and F38 barstar:barnase
+    - 28 - F44 barstar and F44 barstar:barnase
+    - 29 - A76 barstar and A76 barstar:barnase
+    - 30 - A80 barstar and A80 barstar:barnase
+    - 31 - A35 barstar and A35 barstar:barnase
+    - 32 - A39 barstar and A39 barstar:barnase
+    - 33 - A27 barnase and A27 barnase:barstar
+    - 34 - A59 barnase and A59 barnase:barstar
+    - 35 - Q83 barnase and Q83 barnase:barstar
+    - 36 - A87 barnase and A87 barnase:barstar
+    - 37 - A102 barnase and A102 barnase:barstar
+    - 38 - ASH capped peptide  in solvent
+    - 40 - ASH35 barstar and ASH35 barstar:barnase
+    - 43 - LYN capped peptide in solvent
+    - 44 - LYN27 barnase and LYN27 barnase:barstar
 
 ## Replicates
 Below, we list the names of the replicate directories used for each batch.
