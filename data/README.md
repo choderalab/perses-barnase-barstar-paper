@@ -107,6 +107,61 @@
         - `37` - A->R
         - `38` - Q->R
         - `39` - A->H 
+- `47`
+	- `0` - Y29F
+	- `1` - Y29A
+	- `2` - W38F
+	- `3` - T42A
+	- `4` - W44F
+	- `5` - E76A
+	- `6` - E80A
+	- `7` - D35A
+	- `8` - D39A
+	- `9` - K27A
+	- `10` - R59A
+	- `11` - R83Q
+	- `12` - R87A
+	- `13` - H102A
+	- `14` - F29Y
+	- `15` - A29Y
+	- `16` - F38W
+	- `17` - A42T
+	- `18` - F44W
+	- `19` - A76E
+	- `20` - A80E
+	- `21` - A35D
+	- `22` - A39D
+	- `23` - A27K
+	- `24` - A59R
+	- `25` - Q83R
+	- `26` - A87R
+	- `27` - A102H
+	- `28` - ASH35A
+	- `32` - LYN27A
+- `48`
+	- `0` - A42T 
+	- `1` - R87A
+- `49`
+	- `0` - A42T, radius 0.3 nm, T_max 400 K
+	- `1` - A42T, radius 0.3 nm, T_max 600 K
+	- `2` - A42T, radius 0.3 nm, T_max 1200 K
+	- `3` - A42T, radius 0.5 nm, T_max 400 K
+	- `4` - A42T, radius 0.5 nm, T_max 600 K
+	- `5` - A42T, radius 0.5 nm, T_max 1200 K
+	- `6` - A42T, radius 0.7 nm, T_max 400 K
+	- `7` - A42T, radius 0.7 nm, T_max 600 K
+	- `8` - A42T, radius 0.7 nm, T_max 1200 K
+	- `9` - R87A, radius 0.3 nm, T_max 400 K
+	- `10` - R87A, radius 0.3 nm, T_max 600 K
+	- `11` - R87A, radius 0.3 nm, T_max 1200 K
+	- `12` - R87A, radius 0.5 nm, T_max 400 K
+	- `13` - R87A, radius 0.5 nm, T_max 600 K
+	- `14` - R87A, radius 0.5 nm, T_max 1200 K
+	- `15` - R87A, radius 0.7 nm, T_max 400 K
+	- `16` - R87A, radius 0.7 nm, T_max 600 K
+	- `17` - R87A, radius 0.7 nm, T_max 1200 K
+
+
 
 ## Replicates
 Below, we list the names of the replicate directories used for each batch.
