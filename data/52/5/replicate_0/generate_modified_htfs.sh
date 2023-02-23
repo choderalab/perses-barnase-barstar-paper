@@ -19,7 +19,7 @@
 # job name (default = name of script file)
 #BSUB -J "htf.5"
 
-in_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/47/5/replicate_0/
+in_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/47/5/replicate_1/
 out_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/52/5/replicate_0/
 
 source ~/.bashrc

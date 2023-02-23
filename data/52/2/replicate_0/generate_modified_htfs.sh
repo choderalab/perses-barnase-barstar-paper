@@ -19,7 +19,7 @@
 # job name (default = name of script file)
 #BSUB -J "htf.2"
 
-in_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/47/2/replicate_0/
+in_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/47/2/replicate_1/
 out_dir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/52/2/replicate_0/
 
 source ~/.bashrc
