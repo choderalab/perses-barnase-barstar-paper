@@ -12,7 +12,7 @@ Note "htf" refers to the Perses `RESTCapableHybridTopologyFactory` object, which
 - `47` - Contains for scripts for generating htfs, running/resuming AREX, analyzing free energies, and running $\partial U$ / $\partial \lambda$ analysis for all barnase:barstar mutations besides A42T, R87A, and W44F. Also contains pickle files for free energy data and $\partial U$ / $\partial \lambda$ correlation data.
 - `48` - Contains for scripts for running AREX (with restraints) and analyzing free energies for barnase:barstar mutations A42T and R87A. Also contains pickle files for free energy data. Htfs were copied from `45/9/replicate_1` and `45/10/replicate_1` for `48/0/replicate_0` and `48/1/replicate_0`, respectively.
 - `49` - Contains for scripts for generating modified htfs, running AREST, and analyzing free energies for barnase:barstar mutations A42T and R87A across 9 REST parameter combinations for each mutation. Also contains pickle files for free energy data. Htfs were copied from `45/9/replicate_1` for `49/0-2/replicate_0-2` and `45/10/replicate_1` for `49/9-11/replicate_0-2`.
-- `52` - Contains for scripts for generating htfs, running/resuming AREST, and analyzing free energies for all barnase:barstar mutations. Also contains pickle files for free energy data.
+- `52` - Contains for scripts for generating htfs, running/resuming AREST, and analyzing free energies for all barnase:barstar mutations. Also contains pickle files for free energy data. Htfs were copied from `49/4/replicate_0` and `49/13/replicate_0` for `52/12/replicate_0` and `52/17/replicate_0`, respectively.
 
 ## Experiments
 - `43`
