@@ -14,10 +14,10 @@ Publication: Coming soon!
 * The data in this repository is made available under the Creative Commons [CC0 (“No Rights Reserved”) License](https://creativecommons.org/share-your-work/public-domain/cc0/) - a copy of this license is provided as `DATA_LICENSE`
 
 ## Manifest
-* `data` - Contains the data necessary to reproduce the figures
+* `data` - Contains the data necessary to reproduce the figures and bash scripts used to run the jobs
 * `envs` - Contains the dumps of the conda environments used in this study
 * `input_files` - Contains all input PDB files and relevant scripts for generating/modifying the PDBs
-* `scripts` - Contains all scripts for solvating, parametrizing, running equilibration, generating free energy calculation input files, running alchemical replica exchange (AREX), and running alchemical replica exchange with solute tempering (AREST).
+* `scripts` - Contains all Python scripts for solvating, parametrizing, running equilibration, generating free energy calculation input files, running alchemical replica exchange (AREX), and running alchemical replica exchange with solute tempering (AREST).
 
 ## Environment
 Core dependencies include Perses 0.10.1, OpenMMTools 0.21.5, MDTraj 1.9.7, and pymbar 3.1.1.
