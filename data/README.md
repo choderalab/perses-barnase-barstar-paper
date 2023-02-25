@@ -3,7 +3,14 @@
 Note "htf" refers to the Perses `RESTCapableHybridTopologyFactory` object, which contains the hybrid topology, positions, and system for a given an alchemical transformation.
 
 ## File organization
-`{batch_number}/{experiment_number}/{replicate_number}/`
+Bash scripts for running experiments and data for generating figures are organized according to this structure: `{batch_number}/{experiment_number}/{replicate_number}/`.
+Batches, experiments, and replicates are described in detail below.
+
+Tables of $\Delta\Delta G$ values for terminally-blocked amino acid and barnase:barstar mutations are available in:
+- `table_10ns_arex.csv` -- barnase:barstar mutations (10 ns/replica AREX for complex phase, 10 ns/replica AREX for apo phase)
+- `table_50ns_arest.csv` -- barnase:barstar mutations (50 ns/replica AREST for complex phase, 10 ns/replica AREX for apo phase)
+- `table_50ns_arex.csv` -- barnase:barstar mutations (50 ns/replica AREX for complex phase, 10 ns/replica AREX for apo phase)
+- `table_terminally_blocked.csv` -- terminally-blocked amino acid mutations (5 ns/replica AREX for both ACE-X-NME and ALA-X-ALA phases)
 
 ## Batches
 - `43` - Contains scripts for solvating/parametrizing and running equilibration
