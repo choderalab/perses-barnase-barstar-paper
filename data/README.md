@@ -12,6 +12,8 @@ Tables of $\Delta\Delta G$ values for terminally-blocked amino acid and barnase:
 - `table_50ns_arex.csv` -- barnase:barstar mutations (50 ns/replica AREX for complex phase, 10 ns/replica AREX for apo phase)
 - `table_terminally_blocked.csv` -- terminally-blocked amino acid mutations (5 ns/replica AREX for both ACE-X-NME and ALA-X-ALA phases)
 
+Table of $\Delta G$ values for computing the multi-protonation state $\Delta\Delta G$ s for barnase:barstar mutations D35A and K27A is available at: `D35A_K27A.xlsx`.
+
 ## Batches
 - `43` - Contains scripts for solvating/parametrizing and running equilibration
 - `45` - Contains for scripts for generating htfs, running/resuming AREX, analyzing free energies, and running $\partial U$ / $\partial \lambda$ analysis for barnase:barstar mutations A42T, R87A, and W44F. Also contains pickle files for free energy data and $\partial U$ / $\partial \lambda$ correlation data.
