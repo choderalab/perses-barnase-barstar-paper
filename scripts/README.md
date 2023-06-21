@@ -6,3 +6,4 @@ The scripts are organized based on each step in the workflow:
 4. `04_run_repex` - Run replica exchange simulations (and resume, if necessary)
 5. `05_analyze` -  Analyze the simulations (compute free energies, compute $\partial U$ / $\partial \lambda$, monitor degrees of freedom, check replica mixing, check slopes of free energy time series, etc.)
 
+Note: The bash scripts used to run each of the Python scripts are located in `perses-barnase-barstar-paper/data`
