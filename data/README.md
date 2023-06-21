@@ -16,6 +16,7 @@ Tables of $\Delta\Delta G$ values for terminally-blocked amino acid and barnase:
 Tables of the names of the degree of freedoms corresponding to PCCs are available in:
 - `table_10ns_arex_pccs.csv` -- barnase:barstar mutations (10 ns/replica AREX for complex phase)
 - `table_50ns_arest_pccs.csv` -- barnase:barstar mutations (50 ns/replica AREST for complex phase)
+
 Details on the `Degree of freedom` column: For backbone and sidechain torsions, the degree of freedom is formatted according to "{chain name}-{residue id} {dihedral angle name} {'old' or 'new', aka WT and mutant residues, respectively}", where the dihedral angle name can be phi, psi, chi1, chi2, chi3, or chi4. For intra and inter interface contacts, the degree of freedom is formatted according to "{chain name of residue A}-{residue A id} | {chain name of residue B}-{residue B id} {'old' or 'new', aka WT and mutant topologies, respectively}". For neighboring waters, the degree of freedom is formatted according to "nearby waters {'old' or 'new', aka WT and mutant residues, respectively}", where nearby refers to within 5 angstroms of the WT or mutant residue. 
 
 Table of $\Delta G$ values for computing the multi-protonation state $\Delta\Delta G$ s for barnase:barstar mutations D35A and K27A is available at: `D35A_K27A.xlsx`.
