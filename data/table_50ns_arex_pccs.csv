@@ -1,0 +1,141 @@
+Mutation,Degree of freedom category,PCC,95% confidence interval,Degree of freedom
+Y29F,backbone torsions,0.03,"(-0.0, 0.05)",barstar-42 psi old
+Y29F,sidechain torsions,-0.21,"(-0.25, -0.18)",barstar-29 chi1 old
+Y29F,intra interface contacts,0.16,"(0.13, 0.19)",barstar-29 | barstar-43 old
+Y29F,inter interface contacts,0.18,"(0.15, 0.21)",barnase-87 | barstar-29 old
+Y29F,neighboring waters,0.19,"(0.15, 0.22)",nearby waters old
+Y29A,backbone torsions,0.06,"(0.03, 0.08)",barstar-29 psi old
+Y29A,sidechain torsions,-0.15,"(-0.21, -0.09)",barstar-29 chi1 old
+Y29A,intra interface contacts,0.12,"(0.07, 0.16)",barstar-27 | barstar-29 old
+Y29A,inter interface contacts,0.17,"(0.14, 0.19)",barnase-102 | barstar-29 old
+Y29A,neighboring waters,0.21,"(0.16, 0.24)",nearby waters old
+W38F,backbone torsions,-0.03,"(-0.05, -0.01)",barnase-60 phi old
+W38F,sidechain torsions,0.18,"(0.16, 0.2)",barstar-38 chi1 old
+W38F,intra interface contacts,0.17,"(0.14, 0.19)",barstar-38 | barstar-80 old
+W38F,inter interface contacts,-0.16,"(-0.18, -0.13)",barnase-104 | barstar-38 old
+W38F,neighboring waters,0.12,"(0.09, 0.14)",nearby waters new
+T42A,backbone torsions,0.38,"(0.3, 0.45)",barstar-43 psi old
+T42A,sidechain torsions,0.64,"(0.56, 0.7)",barstar-42 chi1 old
+T42A,intra interface contacts,-0.62,"(-0.68, -0.54)",barstar-42 | barstar-76 old
+T42A,inter interface contacts,0.54,"(0.46, 0.6)",barnase-87 | barstar-42 old
+T42A,neighboring waters,-0.34,"(-0.4, -0.25)",nearby waters new
+W44F,backbone torsions,0.03,"(0.02, 0.05)",barstar-43 psi old
+W44F,sidechain torsions,0.2,"(0.17, 0.22)",barstar-44 chi1 old
+W44F,intra interface contacts,-0.18,"(-0.21, -0.15)",barstar-31 | barstar-44 old
+W44F,inter interface contacts,-0.18,"(-0.21, -0.16)",barnase-104 | barstar-44 old
+W44F,neighboring waters,-0.15,"(-0.17, -0.12)",nearby waters old
+E76A,backbone torsions,0.15,"(0.13, 0.18)",barstar-73 phi old
+E76A,sidechain torsions,-0.56,"(-0.59, -0.52)",barstar-76 chi1 old
+E76A,intra interface contacts,0.64,"(0.62, 0.66)",barstar-73 | barstar-76 old
+E76A,inter interface contacts,0.49,"(0.45, 0.52)",barnase-102 | barstar-76 old
+E76A,neighboring waters,0.67,"(0.65, 0.69)",nearby waters old
+E80A,backbone torsions,-0.23,"(-0.25, -0.21)",barstar-80 psi old
+E80A,sidechain torsions,-0.6,"(-0.64, -0.57)",barstar-80 chi1 old
+E80A,intra interface contacts,0.62,"(0.61, 0.64)",barstar-73 | barstar-80 old
+E80A,inter interface contacts,-0.49,"(-0.52, -0.46)",barnase-56 | barstar-80 old
+E80A,neighboring waters,0.61,"(0.58, 0.64)",nearby waters old
+D35A,backbone torsions,0.22,"(0.16, 0.27)",barnase-56 phi old
+D35A,sidechain torsions,-0.64,"(-0.65, -0.62)",barstar-35 chi1 old
+D35A,intra interface contacts,-0.44,"(-0.53, -0.35)",barnase-58 | barnase-83 old
+D35A,inter interface contacts,-0.55,"(-0.62, -0.48)",barnase-58 | barstar-35 old
+D35A,neighboring waters,-0.49,"(-0.54, -0.42)",nearby waters new
+D39A,backbone torsions,-0.41,"(-0.49, -0.3)",barnase-83 psi old
+D39A,sidechain torsions,-0.84,"(-0.86, -0.83)",barstar-39 chi1 old
+D39A,intra interface contacts,-0.7,"(-0.75, -0.64)",barnase-27 | barnase-102 old
+D39A,inter interface contacts,0.82,"(0.8, 0.84)",barnase-104 | barstar-39 old
+D39A,neighboring waters,-0.57,"(-0.62, -0.5)",nearby waters new
+K27A,backbone torsions,-0.23,"(-0.26, -0.19)",barnase-27 psi old
+K27A,sidechain torsions,-0.51,"(-0.52, -0.49)",barnase-27 chi2 old
+K27A,intra interface contacts,-0.7,"(-0.72, -0.68)",barnase-27 | barnase-60 old
+K27A,inter interface contacts,-0.69,"(-0.71, -0.66)",barnase-27 | barstar-34 old
+K27A,neighboring waters,-0.31,"(-0.35, -0.27)",nearby waters new
+R59A,backbone torsions,0.2,"(0.14, 0.25)",barnase-56 psi old
+R59A,sidechain torsions,-0.56,"(-0.58, -0.54)",barnase-59 chi1 old
+R59A,intra interface contacts,0.52,"(0.49, 0.53)",barnase-59 | barnase-102 old
+R59A,inter interface contacts,-0.7,"(-0.72, -0.68)",barnase-59 | barstar-76 old
+R59A,neighboring waters,-0.35,"(-0.41, -0.28)",nearby waters new
+R83Q,backbone torsions,0.45,"(0.4, 0.51)",barstar-43 psi old
+R83Q,sidechain torsions,-0.57,"(-0.63, -0.5)",barnase-83 chi1 old
+R83Q,intra interface contacts,-0.49,"(-0.55, -0.41)",barnase-27 | barnase-83 old
+R83Q,inter interface contacts,0.44,"(0.37, 0.51)",barnase-38 | barstar-43 old
+R83Q,neighboring waters,-0.37,"(-0.46, -0.27)",nearby waters new
+R87A,backbone torsions,-0.47,"(-0.51, -0.41)",barnase-87 phi old
+R87A,sidechain torsions,-0.58,"(-0.64, -0.49)",barnase-87 chi3 old
+R87A,intra interface contacts,-0.6,"(-0.64, -0.53)",barnase-38 | barnase-87 old
+R87A,inter interface contacts,-0.73,"(-0.76, -0.69)",barnase-87 | barstar-39 old
+R87A,neighboring waters,-0.74,"(-0.78, -0.68)",nearby waters new
+H102A,backbone torsions,-0.07,"(-0.09, -0.05)",barnase-85 psi old
+H102A,sidechain torsions,-0.07,"(-0.11, -0.05)",barnase-102 chi2 old
+H102A,intra interface contacts,0.12,"(0.08, 0.18)",barstar-29 | barstar-35 old
+H102A,inter interface contacts,0.14,"(0.1, 0.18)",barnase-102 | barstar-35 old
+H102A,neighboring waters,-0.05,"(-0.08, -0.01)",nearby waters new
+F29Y,backbone torsions,0.03,"(0.01, 0.05)",barstar-45 psi old
+F29Y,sidechain torsions,0.17,"(0.13, 0.22)",barstar-29 chi1 new
+F29Y,intra interface contacts,-0.14,"(-0.17, -0.1)",barstar-29 | barstar-43 new
+F29Y,inter interface contacts,-0.15,"(-0.19, -0.11)",barnase-87 | barstar-29 new
+F29Y,neighboring waters,-0.16,"(-0.19, -0.12)",nearby waters new
+A29Y,backbone torsions,-0.08,"(-0.12, -0.04)",barstar-29 psi old
+A29Y,sidechain torsions,0.21,"(0.18, 0.25)",barstar-29 chi1 new
+A29Y,intra interface contacts,-0.27,"(-0.31, -0.23)",barstar-29 | barstar-43 new
+A29Y,inter interface contacts,-0.25,"(-0.28, -0.21)",barnase-35 | barstar-29 new
+A29Y,neighboring waters,-0.28,"(-0.32, -0.23)",nearby waters new
+F38W,backbone torsions,0.05,"(0.02, 0.07)",barstar-42 phi old
+F38W,sidechain torsions,-0.18,"(-0.21, -0.16)",barstar-38 chi1 new
+F38W,intra interface contacts,-0.17,"(-0.19, -0.14)",barstar-38 | barstar-80 new
+F38W,inter interface contacts,0.16,"(0.12, 0.19)",barnase-104 | barstar-38 new
+F38W,neighboring waters,0.12,"(0.1, 0.14)",nearby waters new
+A42T,backbone torsions,0.36,"(0.28, 0.4)",barstar-40 psi old
+A42T,sidechain torsions,-0.63,"(-0.68, -0.56)",barstar-42 chi1 new
+A42T,intra interface contacts,0.61,"(0.53, 0.66)",barstar-42 | barstar-76 new
+A42T,inter interface contacts,-0.54,"(-0.59, -0.45)",barnase-83 | barstar-42 new
+A42T,neighboring waters,0.3,"(0.21, 0.37)",nearby waters old
+F44W,backbone torsions,-0.03,"(-0.04, -0.02)",barstar-27 phi old
+F44W,sidechain torsions,-0.16,"(-0.21, -0.12)",barstar-44 chi1 new
+F44W,intra interface contacts,-0.15,"(-0.17, -0.13)",barstar-30 | barstar-44 old
+F44W,inter interface contacts,-0.14,"(-0.16, -0.12)",barnase-104 | barstar-44 old
+F44W,neighboring waters,0.13,"(0.09, 0.17)",nearby waters new
+A76E,backbone torsions,-0.17,"(-0.19, -0.14)",barstar-76 psi old
+A76E,sidechain torsions,0.6,"(0.58, 0.63)",barstar-76 chi1 new
+A76E,intra interface contacts,-0.66,"(-0.67, -0.65)",barstar-73 | barstar-76 new
+A76E,inter interface contacts,-0.52,"(-0.54, -0.48)",barnase-102 | barstar-76 new
+A76E,neighboring waters,-0.68,"(-0.69, -0.66)",nearby waters new
+A80E,backbone torsions,0.2,"(0.17, 0.22)",barstar-80 psi old
+A80E,sidechain torsions,0.56,"(0.54, 0.57)",barstar-80 chi1 new
+A80E,intra interface contacts,-0.63,"(-0.64, -0.62)",barstar-73 | barstar-80 new
+A80E,inter interface contacts,0.55,"(0.53, 0.57)",barnase-56 | barstar-80 new
+A80E,neighboring waters,-0.6,"(-0.62, -0.58)",nearby waters new
+A35D,backbone torsions,-0.27,"(-0.32, -0.2)",barnase-56 phi old
+A35D,sidechain torsions,0.64,"(0.62, 0.66)",barstar-35 chi1 new
+A35D,intra interface contacts,0.51,"(0.44, 0.57)",barnase-58 | barnase-83 old
+A35D,inter interface contacts,0.62,"(0.53, 0.67)",barnase-58 | barstar-35 new
+A35D,neighboring waters,0.54,"(0.44, 0.62)",nearby waters new
+A39D,backbone torsions,0.25,"(0.18, 0.3)",barstar-45 psi old
+A39D,sidechain torsions,0.86,"(0.84, 0.88)",barstar-39 chi1 new
+A39D,intra interface contacts,-0.69,"(-0.71, -0.67)",barstar-33 | barstar-39 new
+A39D,inter interface contacts,-0.83,"(-0.84, -0.81)",barnase-104 | barstar-39 new
+A39D,neighboring waters,0.64,"(0.59, 0.68)",nearby waters old
+A27K,backbone torsions,0.16,"(0.13, 0.18)",barnase-27 psi old
+A27K,sidechain torsions,0.37,"(0.32, 0.41)",barnase-27 chi4 new
+A27K,intra interface contacts,0.51,"(0.47, 0.55)",barnase-27 | barnase-60 new
+A27K,inter interface contacts,0.51,"(0.46, 0.55)",barnase-27 | barstar-34 new
+A27K,neighboring waters,0.24,"(0.2, 0.28)",nearby waters old
+A59R,backbone torsions,0.16,"(0.1, 0.22)",barnase-56 phi old
+A59R,sidechain torsions,0.41,"(0.36, 0.47)",barstar-76 chi2 old
+A59R,intra interface contacts,-0.42,"(-0.46, -0.39)",barnase-59 | barnase-102 new
+A59R,inter interface contacts,0.58,"(0.52, 0.64)",barnase-59 | barstar-76 new
+A59R,neighboring waters,0.27,"(0.2, 0.32)",nearby waters old
+Q83R,backbone torsions,-0.34,"(-0.39, -0.24)",barstar-43 psi old
+Q83R,sidechain torsions,0.54,"(0.47, 0.59)",barnase-83 chi1 new
+Q83R,intra interface contacts,-0.56,"(-0.65, -0.45)",barnase-27 | barnase-83 old
+Q83R,inter interface contacts,-0.54,"(-0.61, -0.46)",barnase-83 | barstar-42 old
+Q83R,neighboring waters,0.22,"(0.12, 0.32)",nearby waters old
+A87R,backbone torsions,-0.39,"(-0.45, -0.29)",barnase-87 phi old
+A87R,sidechain torsions,0.36,"(0.18, 0.5)",barnase-87 chi3 new
+A87R,intra interface contacts,0.53,"(0.42, 0.6)",barnase-38 | barnase-87 new
+A87R,inter interface contacts,0.62,"(0.54, 0.67)",barnase-87 | barstar-39 new
+A87R,neighboring waters,0.58,"(0.49, 0.64)",nearby waters old
+A102H,backbone torsions,-0.08,"(-0.12, -0.04)",barstar-31 phi old
+A102H,sidechain torsions,0.08,"(0.05, 0.11)",barnase-102 chi2 new
+A102H,intra interface contacts,-0.14,"(-0.19, -0.1)",barstar-29 | barstar-35 old
+A102H,inter interface contacts,-0.13,"(-0.18, -0.09)",barnase-58 | barstar-29 old
+A102H,neighboring waters,0.08,"(0.05, 0.11)",nearby waters old
