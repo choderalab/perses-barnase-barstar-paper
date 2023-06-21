@@ -8,9 +8,14 @@ Batches, experiments, and replicates are described in detail below.
 
 Tables of $\Delta\Delta G$ values for terminally-blocked amino acid and barnase:barstar mutations are available in:
 - `table_10ns_arex.csv` -- barnase:barstar mutations (10 ns/replica AREX for complex phase, 10 ns/replica AREX for apo phase)
+- `table_10ns_arest.csv` -- barnase:barstar mutations (10 ns/replica AREST for complex phase, 10 ns/replica AREX for apo phase)
 - `table_50ns_arest.csv` -- barnase:barstar mutations (50 ns/replica AREST for complex phase, 10 ns/replica AREX for apo phase)
 - `table_50ns_arex.csv` -- barnase:barstar mutations (50 ns/replica AREX for complex phase, 10 ns/replica AREX for apo phase)
 - `table_terminally_blocked.csv` -- terminally-blocked amino acid mutations (5 ns/replica AREX for both ACE-X-NME and ALA-X-ALA phases)
+
+Tables of the names of the degree of freedoms corresponding to PCCs are available in:
+- `table_10ns_arex_pccs.csv` -- barnase:barstar mutations (10 ns/replica AREX for complex phase)
+- `table_50ns_arest_pccs.csv` -- barnase:barstar mutations (50 ns/replica AREST for complex phase)
 
 Table of $\Delta G$ values for computing the multi-protonation state $\Delta\Delta G$ s for barnase:barstar mutations D35A and K27A is available at: `D35A_K27A.xlsx`.
 
@@ -19,7 +24,7 @@ Table of $\Delta G$ values for computing the multi-protonation state $\Delta\Del
 - `45` - Contains for scripts for generating htfs, running/resuming AREX, analyzing free energies, and running $\partial U$ / $\partial \lambda$ analysis for barnase:barstar mutations A42T, R87A, and W44F. Also contains pickle files for free energy data and $\partial U$ / $\partial \lambda$ correlation data.
 - `46` - Contains for scripts for generating htfs, running AREX, and analyzing free energies for all terminally-blocked amino acid mutations. Also contains pickle files for free energy data.
 - `47` - Contains for scripts for generating htfs, running/resuming AREX, analyzing free energies, and running $\partial U$ / $\partial \lambda$ analysis for all barnase:barstar mutations besides A42T, R87A, and W44F. Also contains pickle files for free energy data and $\partial U$ / $\partial \lambda$ correlation data.
-- `48` - Contains for scripts for running AREX (with restraints) and analyzing free energies for barnase:barstar mutations A42T and R87A. Also contains pickle files for free energy data. Htfs were copied from `45/9/replicate_1` and `45/10/replicate_1` for `48/0/replicate_0` and `48/1/replicate_0`, respectively.
+- `48` - Contains for scripts for running AREX (with restraints) and analyzing free energies for barnase:barstar mutations A42T and R87A. Also contains pickle files for free energy data. Htfs were copied from `45/9/replicate_1` and `45/10/replicate_1` for `48/0/replicate_0` and `48/1/replicate_1`, respectively.
 - `49` - Contains for scripts for generating modified htfs, running AREST, and analyzing free energies for barnase:barstar mutations A42T and R87A across 9 REST parameter combinations for each mutation. Also contains pickle files for free energy data. Htfs were copied from `45/9/replicate_1` for `49/0-2/replicate_0-2` and `45/10/replicate_1` for `49/9-11/replicate_0-2`. Htfs were also copied from replicate 0 to replicates 1 and 2.
 - `52` - Contains for scripts for generating htfs, running/resuming AREST, and analyzing free energies for all barnase:barstar mutations. Also contains pickle files for free energy data. Htfs were copied from `49/4/replicate_0` and `49/13/replicate_0` for `52/12/replicate_0` and `52/17/replicate_0`, respectively.
 
@@ -206,6 +211,6 @@ Below, we list the names of the replicate directories used for each batch.
 - `45` - replicate 1 for `9` and `10`, replicate 0 for `11`
 - `46` - replicate 0
 - `47` - replicate 1
-- `48` - replicate 0
+- `48` - replicate 0 for `0` and replicate 1 for `1`
 - `49` - replicates 0, 1, 2
 - `52` - replicate 0 for all except replicate 1 for `19` and `21` 
