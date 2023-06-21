@@ -17,14 +17,14 @@
 #BSUB -n 24
 #
 # job name (default = name of script file)
-#BSUB -J "48.1cr0a"
+#BSUB -J "48.1cr1a"
 
 source ~/.bashrc
 conda activate perses-paper5
 
 main_dir=48
 sub_dir=1
-replicate=0
+replicate=1
 phase=complex
 starting_iteration=1000
 total_iterations=10000

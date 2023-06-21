@@ -17,18 +17,18 @@
 #BSUB -n 2 -gpu "num=1/task:j_exclusive=yes:mode=shared"
 #
 # job name (default = name of script file)
-#BSUB -J "48.1.com"
+#BSUB -J "48.1.comr1"
 
 source ~/.bashrc
 conda activate perses-paper5
 
-outdir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/48/1/replicate_0/
+outdir=/data/chodera/zhangi/perses_benchmark/repex/perses-bnbs-paper-fourth-attempt/48/1/replicate_1/
 phase=complex
 n_states=36
 n_cycles=10000
 t_max=300
 restraint='heavy'
-force_constant=50.0
+force_constant=75.0
 
 build_mpirun_configfile --configfilepath configfile_${phase} --hostfilepath hostfile_${phase} "python /data/chodera/zhangi/perses_benchmark/perses-barnase-barstar-paper/scripts/04_run_repex/run_repex.py $outdir $phase $n_states $n_cycles $t_max --restraint $restraint --force_constant $force_constant"
 mpiexec.hydra -f hostfile_${phase} -configfile configfile_${phase}
