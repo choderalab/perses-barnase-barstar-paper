@@ -3,7 +3,7 @@ Contains scripts, input files, and data for:
 - Running and analyzing relative free energy calculations for terminally-blocked amino acids and barnase:barstar using [Perses](https://github.com/choderalab/perses)
 - Identifying and characterizing slow degrees of freedom
 
-Preprint: https://doi.org/10.1101/2023.03.07.530278
+Publication: https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c00333
 
 ## Contributors
 - Ivy Zhang
