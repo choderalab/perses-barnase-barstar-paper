@@ -3,7 +3,12 @@ Contains scripts, input files, and data for:
 - Running and analyzing relative free energy calculations for terminally-blocked amino acids and barnase:barstar using [Perses](https://github.com/choderalab/perses)
 - Identifying and characterizing slow degrees of freedom
 
-Preprint: https://doi.org/10.1101/2023.03.07.530278
+Publication: https://pubs.acs.org/doi/full/10.1021/acs.jctc.3c00333
+
+## Clarifications
+- In Figures 4, S6, S10, S14, the DDGs for the reverse mutations were multiplied by -1 to allow for comparison with experiment. 
+- In Figures 4 and S10, the labeling of data points may be confusing. It is easiest to interpret the "-(Q83R)" label as "Q83R".
+- In Table S1 (and the rest of the tables in `perses-barnase-barstar-paper/data/"), the DDGs for the reverse mutations were *not* multiplied by -1.
 
 ## Contributors
 - Ivy Zhang
